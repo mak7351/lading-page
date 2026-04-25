@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightblue;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+header {
+    background-color:black;
+    font-family: JetBrains Mono;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+
+
+
+}
+main, section {
+    font-family: Fira Sans Condensed;
+}
+i {
+    font-size: 30px;
+}
+section{
+ background-color:lightblue;
+ height: 320px;
+}
+slide-img{
+    height:100%;
+    width: 100%
+}
+footer{
+    height: 80px;
+    background-color:black;
+    color:white;
+}
+footer i{
+    font-size:1.2em;
+}
+button{
+    display: inline-block;
+    padding: 25px;
+    background-color: lightgreen;
+    border: 0.2;
+    box-shadow: 5px 5px 2px 7px dark;
+}
+diva{
+
+}
+#popUp{
+    display: none;
+    aligh-items: center;
+    Justify-content: center;
+    flex-direction: column;
+
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+
+    background-color: blue;
+}
+@media (max-width: 556px ) {
+    footer i{
+        font-size:1em;
+    }
+    diva{
+     height: 1em;   
+    }
+}
